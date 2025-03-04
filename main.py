@@ -28,8 +28,6 @@ y_perd=model.predict(x_test)
 from sklearn.metrics import accuracy_score
 accuracy=accuracy_score(y_test,y_perd)
 
-selected_features: ["A", "B"]  
-path: "my_model.joblib"  
-import joblib
+
 
 joblib.dump(model, 'my_model.joblib')
