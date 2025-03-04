@@ -29,5 +29,7 @@ from sklearn.metrics import accuracy_score
 accuracy=accuracy_score(y_test,y_perd)
 
 
+import joblib
 
 joblib.dump(model, 'my_model.joblib')
+
